@@ -3,19 +3,48 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>@yield('title')</title>
+    <title>@yield('title', 'Jasa Web Kuli IT Tecno')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="coderthemes" name="author" />
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ asset('client/dist/assets/images/favicon.ico') }}">
-    <!-- style css -->
-    <link href="{{ asset('client/dist/assets/css/style.min.css') }}" rel="stylesheet" type="text/css">
-    <!-- unicons Icons css -->
-    <link href="{{ asset('client/dist/assets/libs/@iconscout/unicons/css/line.css') }}" rel="stylesheet"type="text/css">
-    <!-- Swiper slider css -->
-    <link href="{{ asset('client/dist/assets/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css">
 
+    <!-- Meta Description & Keywords -->
+    <meta name="description" content="@yield('meta_description', 'Jasa pembuatan website dan system terpercaya dan terbukti pengerjaannya.')">
+    <meta name="keywords" content="@yield('meta_keywords', 'Jasa website, Build Website, Jasa web murah, Jasa web terpercaya, maintenance website')">
+    <meta name="author" content="Kuli IT Tecno">
+
+    <!-- Open Graph (OG) untuk Social Media -->
+    <meta property="og:title" content="@yield('title', 'Jasa Web Kuli IT Tecno')">
+    <meta property="og:description" content="@yield('meta_description', 'Jasa pembuatan website dan system terpercaya dan terbukti pengerjaannya.')">
+    <meta property="og:image" content="@yield('meta_image', asset('img/client/banner.png'))">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jasa Web Kuli IT Tecno">
+
+    <!-- Twitter Card (untuk preview di Twitter) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@yield('title', 'Jasa Web Kuli IT Tecno')">
+    <meta name="twitter:description" content="@yield('meta_description', 'Jasa pembuatan website dan system terpercaya dan terbukti pengerjaannya.')">
+    <meta name="twitter:image" content="@yield('meta_image', asset('img/client/banner.png'))">
+    <meta name="twitter:site" content="@your_twitter_handle">
+
+    <!-- Meta Tag Robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL (mencegah duplikat konten) -->
+    <link rel="canonical" href="{{ url()->current() }}">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ asset('img/client/logo_2.png') }}">
+
+    <!-- External Styles & Scripts -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="{{ asset('client/dist/assets/css/style.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('client/dist/assets/libs/@iconscout/unicons/css/line.css') }}" rel="stylesheet"type="text/css">
+    <link href="{{ asset('client/dist/assets/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css">
 </head>
+
 
 <body>
     <!-- Navbar Start -->
@@ -63,6 +92,18 @@
     <script src="{{ asset('client/dist/assets/libs/lucide/umd/lucide.min.js') }}"></script>
     <!-- Theme Js -->
     <script src="{{ asset('client/dist/assets/js/theme.js') }}"></script>
+
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "95de8075-161c-4017-b3c7-629f1e14877f";
+        (function() {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
 </body>
 
 </html>

@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 // Client
 Route::get('/', function () {
-    return view('pages.client.template', ['type_menu' => 'dashboard']);
+    return view('pages.client.home', ['type_menu' => 'Home']);
 });
 
 // Dashboard
