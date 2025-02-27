@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="en" class="dfark">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Opixo - Tailwind CSS Multipurpose Landing Page Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        content="Tailwind CSS Saas & Software Landing Page Template, agency, application, business, clean, creative, it solutions, modern, multipurpose, saas, software, tailwind css."
+        name="description" />
+    <meta content="coderthemes" name="author" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="{{ asset('client/dist/assets/images/favicon.ico') }}">
+
+    <!-- style css -->
+    <link href="{{ asset('client/dist/assets/css/style.min.css') }}" rel="stylesheet" type="text/css">
+
+    <!-- unicons Icons css -->
+    <link href="{{ asset('client/dist/assets/libs/@iconscout/unicons/css/line.css') }}" rel="stylesheet"
+        type="text/css">
+
+    <!-- Swiper slider css -->
+    <link href="{{ asset('client/dist/assets/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <header id="navbar-sticky" class="navbar nav-dark">
+        <div class="container">
+            <nav>
+                <!-- Navbar Brand Logo -->
+                <a href="home-saas.html" class="logo">
+                    <img src="assets/images/logo-dark.png" class="h-10 logo-dark" alt="Opixo Logo">
+                    <img src="assets/images/logo-light.png" class="h-10 logo-light" alt="Opixo Logo">
+                </a>
+
+                <!-- Moblie Menu Toggle Button (Offcanvas Button) -->
+                <div class="lg:hidden flex items-center ms-auto px-2.5">
+                    <button
+                        class="hs-collapse-toggle inline-flex items-center justify-center h-9 w-12 rounded-md border border-gray-300 bg-slate-300/30"
+                        type="button" id="hs-unstyled-collapse" data-hs-collapse="#mobileMenu" data-hs-type="collapse">
+                        <i class="uil uil-bars text-2xl"></i>
+                    </button>
+                </div>
+
+                <!-- Nevigation Menu -->
+                <div id="mobileMenu"
+                    class="hs-collapse overflow-hidden transition-all duration-300 lg:basis-auto basis-full grow hidden lg:flex items-center justify-center mx-auto mt-2 lg:mt-0">
+                    <ul id="navbar-navlist" class="navbar-nav">
+                        <!-- Home Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+
+                        <!-- Service Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Service</a>
+                        </li>
+
+                        <!-- Features Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+
+                        <!-- Price Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#price">Price</a>
+                        </li>
+
+                        <!-- Review Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+
+                        <!-- Faq Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">Faq</a>
+                        </li>
+                    </ul>
+                    <!-- Download Button -->
+                    <div
+                        class="lg:hidden flex items-center pt-4 mt-4 lg:pt-0 lg:mt-0 border-t border-gray-200 lg:border-none">
+                        <a href="#" class="nav-btn"><i data-lucide="arrow-big-down-dash" class="h-5 w-5 me-2"></i>
+                            Download</a>
+                    </div>
+                </div>
+                <!-- Download Button -->
+                <div class="hidden lg:flex items-center">
+                    <a href="#" class="nav-btn"><i data-lucide="arrow-big-down-dash" class="h-5 w-5 me-2"></i>
+                        Download</a>
+                </div>
+            </nav><!-- end nav -->
+        </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section id="home"
+        class="relative overflow-hidden pt-40 pb-96 bg-gradient-to-r from-blue-100 to-blue-50 bg-opacity-50">
+        <div class="container relative">
+            <div class="text-center">
+                <div class="flex justify-center mt-6">
+                    <div class="max-w-2xl">
+                        <h1 class="text-5xl/tight text-gray-800 font-bold mb-10">Unlimited Platform to monitor your
+                            best workflow.</h1>
+                        <p class="text-base text-gray-700 lg:max-w-md mx-auto">Et harum quidem rerum facilis est et
+                            expedita distinctio nam libero tempore est nihil.</p>
+                    </div>
+                </div>
+
+                <div class="">
+                    <button
+                        class="relative flex items-center justify-center rounded-full text-base font-medium py-3.5 px-6 mt-10 mx-auto bg-primary text-white"
+                        data-hs-overlay="#watchvideomodal">
+                        <i class="uil uil-play text-2xl/none pe-2.5"></i>
+                        Watch Video
+                    </button>
+                </div>
+            </div>
+        </div><!-- Container End -->
+
+        <div class="shape absolute sm:-bottom-px -bottom-[1px] start-0 end-0 overflow-hidden text-white">
+            <svg class="w-full h-auto scale-[2.0] origin-top" viewBox="0 0 2880 48" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+            </svg>
+        </div><!-- end shap -->
+    </section>
+
+    <div class="pb-24">
+        <div class="max-w-3xl mx-auto -mt-80 relative px-6 z-10">
+            <div class="hidden lg:block">
+                <div class="h-24 w-24 absolute -top-10 -end-5 -z-[1] bg-[url('../images/other/dot.svg')]"></div>
+                <div class="h-24 w-24 absolute -bottom-10 -start-5 -z-[1] bg-[url('../images/other/dot2.svg')]"></div>
+            </div>
+            <img src="assets/images/landing/saas/saas1.png" alt="" class="rounded-md w-full h-full">
+        </div>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- service Section Start -->
+    <section id="service" class="py-24">
+        <div class="container">
+            <div class="flex items-center justify-center mb-14">
+                <div class="max-w-2xl text-center">
+                    <h5 class="capitalize text-lg  text-gray-800 font-medium mb-2">Customer <span
+                            class="font-semibold text-primary">Service</span></h5>
+                    <h2 class="text-3xl/snug font-bold capitalize text-gray-800 mb-1">Choose dashboard for every stage
+                        of your Customer journey</h2>
+                    <p class="text-base text-gray-600">Nemo enim ipsam voluptatem that quia voluptas aut fugit </p>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
+                <div class="bg-white p-6">
+                    <span class="inline-flex relative z-0 bg-blue-50 h-14 w-14 mb-6"
+                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                        <div class="absolute -z-20 top-5 left-5 right-0 bottom-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-blue-500"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                </path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                    </span>
+                    <h5 class="text-xl font-medium mt-5 text-gray-800">Clean Design</h5>
+                    <p class="text-base text-slate-600 mt-4">Quisque quis velit quiars ligula aliquet lacinia quis a
+                        diam quisque pretium nulla nec ultricies magna.</p>
+                </div>
+
+                <div class="bg-white p-6">
+                    <span class="inline-flex relative z-0 bg-red-50 h-14 w-14 mb-6"
+                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                        <div class="absolute -z-20 top-5 left-5 right-0 bottom-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-red-600"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="4"></circle>
+                                <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path>
+                            </svg>
+                        </div>
+                    </span>
+                    <h5 class="text-xl font-medium mt-5 text-gray-800">Awesome Code</h5>
+                    <p class="text-base text-slate-600 mt-4">Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                        aut
+                        odit aut fugit sed quia consequuntur nesciunt.</p>
+                </div>
+
+                <div class="bg-white p-6">
+                    <span class="inline-flex relative z-0 bg-emerald-50 h-14 w-14 mb-6"
+                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                        <div class="absolute -z-20 top-5 left-5 right-0 bottom-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-emerald-500"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z">
+                                </path>
+                            </svg>
+                        </div>
+                    </span>
+                    <h5 class="text-xl font-medium mt-5 text-gray-800">Creative Idea</h5>
+                    <p class="text-base text-slate-600 mt-4">At vero eos et accusamus et iusto odio dignissimos ducimus
+                        qui blanditiis praesentium.</p>
+                </div>
+
+                <div class="bg-white p-6">
+                    <span class="inline-flex relative z-0 bg-sky-50 h-14 w-14 mb-6"
+                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                        <div class="absolute -z-20 top-5 left-5 right-0 bottom-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-sky-500"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                        </div>
+                    </span>
+                    <h5 class="text-xl font-medium mt-5 text-gray-800">Unlimited Features</h5>
+                    <p class="text-base text-slate-600 mt-4">Et harum quidem rerum facilis est expedita distinctio nam
+                        libero tempore cum soluta nobis est eligendi.</p>
+                </div>
+
+                <div class="bg-white p-6">
+                    <span class="inline-flex relative z-0 bg-amber-50 h-14 w-14 mb-6"
+                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                        <div class="absolute -z-20 top-5 left-5 right-0 bottom-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-amber-500"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2">
+                                </rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                    </span>
+                    <h5 class="text-xl font-medium mt-5 text-gray-800">Fully Responsive</h5>
+                    <p class="text-base text-slate-600 mt-4">Temporibus autem quibusdam et aut officiis debitis aut
+                        rerum necessitatibus saepe eveniet ut et voluptates.</p>
+                </div>
+
+                <div class="bg-white p-6">
+                    <span class="inline-flex relative z-0 bg-violet-50 h-14 w-14 mb-6"
+                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                        <div class="absolute -z-20 top-5 left-5 right-0 bottom-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-violet-500"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <circle cx="12" cy="12" r="4"></circle>
+                                <line x1="21.17" y1="8" x2="12" y2="8"></line>
+                                <line x1="3.95" y1="6.06" x2="8.54" y2="14"></line>
+                                <line x1="10.88" y1="21.94" x2="15.46" y2="14"></line>
+                            </svg>
+                        </div>
+                    </span>
+                    <h5 class="text-xl font-medium mt-5 text-gray-800">Finance Friendly</h5>
+                    <p class="text-base text-slate-600 mt-4">Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem accusantium rem doloremque laudantium.</p>
+                </div>
+            </div><!-- Grid End -->
+        </div><!-- Container End -->
+    </section>
+    <!-- service Section End -->
+
+    <!-- features Section Start -->
+    <section id="features"
+        class="bg-slate-50 bg-cover bg-left bg-no-repeat bg-[url(../images/landing/saas/hero-3-bg.png)]">
+        <div class="py-24">
+            <div class="container">
+                <div class="flex items-center justify-center mb-14">
+                    <div class="max-w-2xl text-center">
+                        <h5 class="capitalize text-lg  text-gray-800 font-medium mb-2">Our <span
+                                class="font-semibold text-primary">Features</span></h5>
+                        <h2 class="text-3xl/snug font-bold text-gray-800 mb-1">Simply Beautiful Crafted Pages For Every
+                            Usecase</h2>
+                        <p class="text-base text-gray-600">Nemo enim ipsam voluptatem that quia voluptas aut fugit </p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 grid-cols-1 gap-6 mt-14 items-center">
+                    <div>
+                        <img src="assets/images/landing/saas/saas2.png" class="max-w-full max-h-full rounded-md"
+                            alt="">
+                    </div>
+
+                    <div class="my-auto md:mx-auto">
+                        <h2 class="lg:text-3xl text-2xl text-gray-800 font-semibold mb-2">Saas Application</h2>
+                        <p class="text-base text-gray-600">A simple and clean landing page designed for <br> saas basad
+                            application</p>
+
+                        <div class="mt-10 flex flex-col gap-y-4">
+
+                            <div class="flex items-center gap-5">
+                                <div>
+                                    <span class="inline-flex relative z-0 bg-primary/10 h-8 w-8"
+                                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                                        <div class="absolute -z-20 top-4 left-4 right-0 bottom-0">
+                                            <svg class="w-5 h-5 text-primary" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <rect id="bound" x="0" y="0" width="24" height="24">
+                                                    </rect>
+                                                    <path
+                                                        d="M7,14 C7,16.7614237 9.23857625,19 12,19 C14.7614237,19 17,16.7614237 17,14 C17,12.3742163 15.3702913,9.86852817 12,6.69922982 C8.62970872,9.86852817 7,12.3742163 7,14 Z M12,21 C8.13400675,21 5,17.8659932 5,14 C5,11.4226712 7.33333333,8.08933783 12,4 C16.6666667,8.08933783 19,11.4226712 19,14 C19,17.8659932 15.8659932,21 12,21 Z"
+                                                        id="Oval-2" fill="currentColor"></path>
+                                                    <path
+                                                        d="M12,4 C16.6666667,8.08933783 19,11.4226712 19,14 C19,17.8659932 15.8659932,21 12,21 L12,4 Z"
+                                                        id="Combined-Shape" fill="currentColor"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div>
+                                    <p class="text-lg font-medium text-gray-600">Clean Design</p>
+                                </div>
+                            </div><!-- Flex End -->
+
+                            <div class="flex items-center gap-5">
+                                <div>
+                                    <span class="inline-flex relative z-0 bg-primary/10 h-8 w-8"
+                                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                                        <div class="absolute -z-20 top-4 left-4 right-0 bottom-0">
+                                            <svg class="w-5 h-5 text-primary" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <rect id="bound" x="0" y="0" width="24" height="24">
+                                                    </rect>
+                                                    <polygon id="Path-48" fill="currentColor" opacity="0.3"
+                                                        points="5 3 19 3 23 8 1 8"></polygon>
+                                                    <polygon id="Path-48-Copy" fill="currentColor"
+                                                        points="23 8 12 20 1 8"> </polygon>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div>
+                                    <p class="text-lg font-medium text-gray-600">Most Of Common Section Covered</p>
+                                </div>
+                            </div><!-- Flex End -->
+
+                            <div class="flex items-center gap-5">
+                                <div>
+                                    <span class="inline-flex relative z-0 bg-primary/10 h-8 w-8"
+                                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                                        <div class="absolute -z-20 top-4 left-4 right-0 bottom-0">
+                                            <svg class="w-5 h-5 text-primary" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                                                    <path
+                                                        d="M4.85714286,1 L11.7364114,1 C12.0910962,1 12.4343066,1.12568431 12.7051108,1.35473959 L17.4686994,5.3839416 C17.8056532,5.66894833 18,6.08787823 18,6.52920201 L18,19.0833333 C18,20.8738751 17.9795521,21 16.1428571,21 L4.85714286,21 C3.02044787,21 3,20.8738751 3,19.0833333 L3,2.91666667 C3,1.12612489 3.02044787,1 4.85714286,1 Z M8,12 C7.44771525,12 7,12.4477153 7,13 C7,13.5522847 7.44771525,14 8,14 L15,14 C15.5522847,14 16,13.5522847 16,13 C16,12.4477153 15.5522847,12 15,12 L8,12 Z M8,16 C7.44771525,16 7,16.4477153 7,17 C7,17.5522847 7.44771525,18 8,18 L11,18 C11.5522847,18 12,17.5522847 12,17 C12,16.4477153 11.5522847,16 11,16 L8,16 Z"
+                                                        id="Combined-Shape-Copy" fill="currentColor" opacity="0.3">
+                                                    </path>
+                                                    <path
+                                                        d="M6.85714286,3 L14.7364114,3 C15.0910962,3 15.4343066,3.12568431 15.7051108,3.35473959 L20.4686994,7.3839416 C20.8056532,7.66894833 21,8.08787823 21,8.52920201 L21,21.0833333 C21,22.8738751 20.9795521,23 19.1428571,23 L6.85714286,23 C5.02044787,23 5,22.8738751 5,21.0833333 L5,4.91666667 C5,3.12612489 5.02044787,3 6.85714286,3 Z M8,12 C7.44771525,12 7,12.4477153 7,13 C7,13.5522847 7.44771525,14 8,14 L15,14 C15.5522847,14 16,13.5522847 16,13 C16,12.4477153 15.5522847,12 15,12 L8,12 Z M8,16 C7.44771525,16 7,16.4477153 7,17 C7,17.5522847 7.44771525,18 8,18 L11,18 C11.5522847,18 12,17.5522847 12,17 C12,16.4477153 11.5522847,16 11,16 L8,16 Z"
+                                                        id="Combined-Shape" fill="currentColor"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div>
+                                    <p class="text-lg font-medium text-gray-600">Secondary Page Include</p>
+                                </div>
+                            </div><!-- Flex End -->
+
+                            <div class="flex items-center gap-5">
+                                <div>
+                                    <span class="inline-flex relative z-0 bg-primary/10 h-8 w-8"
+                                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                                        <div class="absolute -z-20 top-4 left-4 right-0 bottom-0">
+                                            <svg class="w-5 h-5 text-primary" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g id="Stockholm-icons-/-Layout-/-Layout-top-panel-2" stroke="none"
+                                                    stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <rect id="bound" x="0" y="0" width="24" height="24">
+                                                    </rect>
+                                                    <path
+                                                        d="M3,4 L20,4 C20.5522847,4 21,4.44771525 21,5 L21,7 C21,7.55228475 20.5522847,8 20,8 L3,8 C2.44771525,8 2,7.55228475 2,7 L2,5 C2,4.44771525 2.44771525,4 3,4 Z M10,10 L20,10 C20.5522847,10 21,10.4477153 21,11 L21,19 C21,19.5522847 20.5522847,20 20,20 L10,20 C9.44771525,20 9,19.5522847 9,19 L9,11 C9,10.4477153 9.44771525,10 10,10 Z"
+                                                        id="Combined-Shape" fill="currentColor"></path>
+                                                    <rect id="Rectangle-7-Copy-2" fill="currentColor" opacity="0.3"
+                                                        x="2" y="10" width="5" height="10" rx="1">
+                                                    </rect>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div>
+                                    <p class="text-lg font-medium text-gray-600">No Additional Cost</p>
+                                </div>
+                            </div><!-- Flex End -->
+                        </div>
+                    </div>
+                </div><!-- Grid End -->
+            </div><!-- Container End -->
+        </div>
+
+        <div class="pb-24">
+            <div class="container">
+                <div class="grid md:grid-cols-2 grid-cols-1 gap-6 items-center">
+                    <div class="my-auto md:mx-auto">
+                        <h2 class="lg:text-3xl text-2xl text-gray-800 font-semibold mb-2">Mobile Application</h2>
+                        <p class="text-base font-medium text-gray-600">showcase your awesome mobile application <br>
+                            with fascination impression</p>
+
+                        <div class="mt-10 flex flex-col gap-y-4">
+                            <div class="flex items-center gap-5">
+                                <div>
+                                    <span class="inline-flex relative z-0 bg-primary/10 h-8 w-8"
+                                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                                        <div class="absolute -z-20 top-4 left-4 right-0 bottom-0">
+                                            <svg class="w-5 h-5 text-primary" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <rect id="bound" x="0" y="0" width="24" height="24">
+                                                    </rect>
+                                                    <path
+                                                        d="M7,14 C7,16.7614237 9.23857625,19 12,19 C14.7614237,19 17,16.7614237 17,14 C17,12.3742163 15.3702913,9.86852817 12,6.69922982 C8.62970872,9.86852817 7,12.3742163 7,14 Z M12,21 C8.13400675,21 5,17.8659932 5,14 C5,11.4226712 7.33333333,8.08933783 12,4 C16.6666667,8.08933783 19,11.4226712 19,14 C19,17.8659932 15.8659932,21 12,21 Z"
+                                                        id="Oval-2" fill="currentColor"></path>
+                                                    <path
+                                                        d="M12,4 C16.6666667,8.08933783 19,11.4226712 19,14 C19,17.8659932 15.8659932,21 12,21 L12,4 Z"
+                                                        id="Combined-Shape" fill="currentColor"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div>
+                                    <p class="text-lg font-medium text-gray-600">Clean Design</p>
+                                </div>
+                            </div><!-- Flex End -->
+
+                            <div class="flex items-center gap-5">
+                                <div>
+                                    <span class="inline-flex relative z-0 bg-primary/10 h-8 w-8"
+                                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                                        <div class="absolute -z-20 top-4 left-4 right-0 bottom-0">
+                                            <svg class="w-5 h-5 text-primary" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <rect id="bound" x="0" y="0" width="24" height="24">
+                                                    </rect>
+                                                    <polygon id="Path-48" fill="currentColor" opacity="0.3"
+                                                        points="5 3 19 3 23 8 1 8"></polygon>
+                                                    <polygon id="Path-48-Copy" fill="currentColor"
+                                                        points="23 8 12 20 1 8">
+                                                    </polygon>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div>
+                                    <p class="text-lg font-medium text-gray-600">Most Of Common Section Covered</p>
+                                </div>
+                            </div><!-- Flex End -->
+
+                            <div class="flex items-center gap-5">
+                                <div>
+                                    <span class="inline-flex relative z-0 bg-primary/10 h-8 w-8"
+                                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                                        <div class="absolute -z-20 top-4 left-4 right-0 bottom-0">
+                                            <svg class="w-5 h-5 text-primary" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g stroke="none" stroke-width="1" fill="none"
+                                                    fill-rule="evenodd">
+                                                    <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                                                    <path
+                                                        d="M4.85714286,1 L11.7364114,1 C12.0910962,1 12.4343066,1.12568431 12.7051108,1.35473959 L17.4686994,5.3839416 C17.8056532,5.66894833 18,6.08787823 18,6.52920201 L18,19.0833333 C18,20.8738751 17.9795521,21 16.1428571,21 L4.85714286,21 C3.02044787,21 3,20.8738751 3,19.0833333 L3,2.91666667 C3,1.12612489 3.02044787,1 4.85714286,1 Z M8,12 C7.44771525,12 7,12.4477153 7,13 C7,13.5522847 7.44771525,14 8,14 L15,14 C15.5522847,14 16,13.5522847 16,13 C16,12.4477153 15.5522847,12 15,12 L8,12 Z M8,16 C7.44771525,16 7,16.4477153 7,17 C7,17.5522847 7.44771525,18 8,18 L11,18 C11.5522847,18 12,17.5522847 12,17 C12,16.4477153 11.5522847,16 11,16 L8,16 Z"
+                                                        id="Combined-Shape-Copy" fill="currentColor" opacity="0.3">
+                                                    </path>
+                                                    <path
+                                                        d="M6.85714286,3 L14.7364114,3 C15.0910962,3 15.4343066,3.12568431 15.7051108,3.35473959 L20.4686994,7.3839416 C20.8056532,7.66894833 21,8.08787823 21,8.52920201 L21,21.0833333 C21,22.8738751 20.9795521,23 19.1428571,23 L6.85714286,23 C5.02044787,23 5,22.8738751 5,21.0833333 L5,4.91666667 C5,3.12612489 5.02044787,3 6.85714286,3 Z M8,12 C7.44771525,12 7,12.4477153 7,13 C7,13.5522847 7.44771525,14 8,14 L15,14 C15.5522847,14 16,13.5522847 16,13 C16,12.4477153 15.5522847,12 15,12 L8,12 Z M8,16 C7.44771525,16 7,16.4477153 7,17 C7,17.5522847 7.44771525,18 8,18 L11,18 C11.5522847,18 12,17.5522847 12,17 C12,16.4477153 11.5522847,16 11,16 L8,16 Z"
+                                                        id="Combined-Shape" fill="currentColor"></path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div>
+                                    <p class="text-lg font-medium text-gray-600">Secondary Page Include</p>
+                                </div>
+                            </div><!-- Flex End -->
+
+                            <div class="flex items-center gap-5">
+                                <div>
+                                    <span class="inline-flex relative z-0 bg-primary/10 h-8 w-8"
+                                        style="border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;">
+                                        <div class="absolute -z-20 top-4 left-4 right-0 bottom-0">
+                                            <svg class="w-5 h-5 text-primary" viewBox="0 0 24 24" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g id="Stockholm-icons-/-Layout-/-Layout-top-panel-2" stroke="none"
+                                                    stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <rect id="bound" x="0" y="0" width="24" height="24">
+                                                    </rect>
+                                                    <path
+                                                        d="M3,4 L20,4 C20.5522847,4 21,4.44771525 21,5 L21,7 C21,7.55228475 20.5522847,8 20,8 L3,8 C2.44771525,8 2,7.55228475 2,7 L2,5 C2,4.44771525 2.44771525,4 3,4 Z M10,10 L20,10 C20.5522847,10 21,10.4477153 21,11 L21,19 C21,19.5522847 20.5522847,20 20,20 L10,20 C9.44771525,20 9,19.5522847 9,19 L9,11 C9,10.4477153 9.44771525,10 10,10 Z"
+                                                        id="Combined-Shape" fill="currentColor"></path>
+                                                    <rect id="Rectangle-7-Copy-2" fill="currentColor" opacity="0.3"
+                                                        x="2" y="10" width="5" height="10" rx="1">
+                                                    </rect>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div>
+                                    <p class="text-lg font-medium text-gray-600">No Additional Cost</p>
+                                </div>
+                            </div><!-- Flex End -->
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="assets/images/landing/saas/app.png"
+                            class="max-w-full max-h-[650px] mx-auto rounded-md" alt="">
+                    </div>
+                </div><!-- grid End -->
+            </div><!-- Container End -->
+        </div>
+    </section>
+    <!-- features Section End -->
+
+    <!-- pricing Section Start -->
+    <section id="price" class="py-24">
+        <div class="container">
+            <div class="flex items-center justify-center mb-14">
+                <div class="max-w-2xl text-center">
+                    <h5 class="capitalize text-lg  text-gray-800 font-medium mb-2">Our <span
+                            class="font-semibold text-primary">Pricing</span></h5>
+                    <h2 class="text-3xl/snug font-bold text-gray-800 mb-1">Simple Plans For Everyone</h2>
+                    <p class="text-base text-gray-600 mb-8">Nemo enim ipsam voluptatem that quia voluptas aut fugit
+                    </p>
+                    <div class="flex items-center justify-center gap-4">
+                        <span class="text-base font-bold text-gray-700">Monthly</span>
+                        <label for="pricing-input" class="relative inline-flex items-center cursor-pointer">
+                            <input type="checkbox" id="pricing-input" value="" class="sr-only peer">
+                            <span
+                                class="w-11 h-4 bg-gray-200 rounded-full  peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[2px] after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all after:ring-2 after:ring-offset-2 after:ring-primary after:bg-primary"></span>
+                        </label>
+                        <span class="text-base font-bold text-gray-700">Yearly</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-10 gap-6">
+                <div class="bg-slate-50 rounded relative overflow-hidden shadow-md">
+                    <div class="flex flex-col h-full p-6">
+                        <div class="shrink">
+                            <div class="mb-6">
+                                <h3 class="flex items-center gap-2 font-bold text-[38px] text-gray-800">
+                                    <span>$8</span>
+                                    <span class="text-lg font-medium">/month</span>
+                                </h3>
+                            </div>
+                            <div class="hidden mb-6">
+                                <h3 class="flex items-center gap-2 font-bold text-[38px] text-gray-800">
+                                    <span>$28</span>
+                                    <span class="text-lg font-medium">/yearly</span>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <h5 class="text-xl font-bold mb-2 text-gray-800">Basic Plan</h5>
+                            <p class="text-sm text-gray-700 font-medium">All the basics for starting a new bissnesses.
+                            </p>
+                        </div>
+
+                        <hr class="border-gray-400 my-6">
+
+                        <ul class="grow ">
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">10 users</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">50 GB storage</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">Front plan features</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">100 apps</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-red-500/20 text-red-500 text-sm font-bold">
+                                    <i class="uil uil-times"></i>
+                                </span>
+                                <p class="text-gray-900">Product support</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-red-500/20 text-red-500 text-sm font-bold">
+                                    <i class="uil uil-times"></i>
+                                </span>
+                                <p class="text-gray-900">Advanced security</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-red-500/20 text-red-500 text-sm font-bold">
+                                    <i class="uil uil-times"></i>
+                                </span>
+                                <p class="text-gray-900">Free subdomain</p>
+                            </li>
+                        </ul>
+
+                        <div class="shrink mt-3">
+                            <a href="#"
+                                class="w-full py-2 px-8 inline-flex justify-center items-center gap-2 rounded-md font-semibold border border-primary text-primary text-base focus:outline-none focus:ring-0 transition-all hover:bg-primary hover:text-white">
+                                Continue
+                            </a>
+                        </div>
+                    </div>
+                </div><!-- End grid-col -->
+
+                <div class="bg-slate-50 rounded relative overflow-hidden shadow-md">
+                    <div
+                        class="absolute bg-primary text-sm text-center inline-flex items-center gap-2 text-white font-semibold rounded-s py-1 px-2 end-0 top-3 w-36">
+                        <i class="uil uil-link text-base/none"></i>
+                        Most Populer
+                    </div>
+                    <div class="flex flex-col h-full p-6">
+                        <div class="shrink">
+                            <div class="mb-6">
+                                <h3 class="flex items-center gap-2 font-bold text-[38px] text-gray-800">
+                                    <span>$18</span>
+                                    <span class="text-lg font-medium">/month</span>
+                                </h3>
+                            </div>
+                            <div class="hidden mb-6">
+                                <h3 class="flex items-center gap-2 font-bold text-[38px] text-gray-800">
+                                    <span>$48</span>
+                                    <span class="text-lg font-medium">/yearly</span>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <h5 class="text-xl font-bold mb-2 text-gray-800">Business Plan</h5>
+                            <p class="text-sm text-gray-700 font-medium">All the basics for starting
+                                a new bissnesses.</p>
+                        </div>
+
+                        <hr class="border-gray-400 my-6">
+
+                        <ul class="grow ">
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">10 users</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">50 GB storage</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">Front plan features</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">100 apps</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">Product support</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">Advanced security</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-red-500/20 text-red-500 text-sm font-bold">
+                                    <i class="uil uil-times"></i>
+                                </span>
+                                <p class="text-gray-900">Free subdomain</p>
+                            </li>
+                        </ul>
+
+                        <div class="shrink mt-3">
+                            <a href="#"
+                                class="w-full py-2 px-8 inline-flex justify-center items-center gap-2 rounded-md font-semibold border border-primary bg-primary text-white text-base focus:outline-none focus:ring-0 transition-all">
+                                Continue
+                            </a>
+                        </div>
+                    </div>
+                </div><!-- End grid-col -->
+
+                <div class="bg-slate-50 rounded relative overflow-hidden shadow-md">
+                    <div class="flex flex-col h-full p-6">
+                        <div class="shrink">
+                            <div class="mb-6">
+                                <h3 class="flex items-center gap-2 font-bold text-[38px] text-gray-800">
+                                    <span>$28</span> <span class="text-lg font-medium">/month</span>
+                                </h3>
+                            </div>
+                            <div class="hidden mb-6">
+                                <h3 class="flex items-center gap-2 font-bold text-[38px] text-gray-800">
+                                    <span>$68</span> <span class="text-lg font-medium">/yearly</span>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <h5 class="text-xl font-bold mb-2 text-gray-800">Exclusive Plan</h5>
+                            <p class="text-sm text-gray-700 font-medium">All the basics for starting
+                                a new bissnesses.</p>
+                        </div>
+
+                        <hr class="border-gray-400 my-6">
+
+                        <ul class="grow ">
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">10 users</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">50 GB storage</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">Front plan features</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">100 apps</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">Product support</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">Advanced security</p>
+                            </li>
+                            <li class="flex items-center gap-2 mb-4 font-medium text-base">
+                                <span
+                                    class="h-5 w-5 inline-flex items-center justify-center rounded-full bg-primary/20 text-primary text-sm font-bold">
+                                    <i class="uil uil-check"></i>
+                                </span>
+                                <p class="text-gray-900">Free subdomain</p>
+                            </li>
+                        </ul>
+
+                        <div class="shrink mt-3">
+                            <a href="#"
+                                class="w-full py-2 px-8 inline-flex justify-center items-center gap-2 rounded-md font-semibold border border-primary text-primary text-base focus:outline-none focus:ring-0 transition-all hover:bg-primary hover:text-white">
+                                Continue
+                            </a>
+                        </div>
+                    </div>
+                </div><!-- End grid-col -->
+
+            </div><!-- Grid End -->
+        </div><!-- Container End -->
+    </section>
+    <!-- pricing Section End -->
+
+    <!-- Team Start -->
+    <div id="team" class="py-24 bg-slate-50">
+        <div class="container overflow-hidden">
+            <div class="flex items-center justify-center mb-16">
+                <div class="max-w-2xl text-center">
+                    <h5 class="capitalize text-lg  text-gray-800 font-medium mb-2">Our <span
+                            class="font-semibold text-primary">Team</span></h5>
+                    <h2 class="text-3xl/snug font-bold text-gray-800 mb-1">Meet our team</h2>
+                    <p class="text-base text-gray-600 mb-8">Nemo enim ipsam voluptatem that quia voluptas aut fugit
+                    </p>
+                </div>
+            </div>
+
+            <div class="gap-2">
+                <div class="py-12 -my-12 overflow-x-hidden">
+                    <div class="swiper feedback-swiper !overflow-visible max-w-full max-h-full">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide mb-12">
+                                <div class="relative bg-white rounded-md h-full">
+                                    <div
+                                        class="absolute -top-[20%] start-0 translate-x-4 h-24 bg-white p-2 rounded-md overflow-hidden">
+                                        <img src="assets/images/avatars/img-7.png" alt=""
+                                            class="rounded-md max-w-full max-h-full">
+                                    </div>
+
+                                    <div class="px-6 pb-6 pt-16">
+                                        <p class="font-medium text-gray-500">@maxine</p>
+                                        <h3 class="text-xl font-bold text-gray-800 mb-0.5">Maxine Gilmer</h3>
+                                        <p class="font-medium text-gray-500 mb-4">Web designer</p>
+                                        <p class="text-gray-500"> These alternatives to the classic Lorem Ipsum texts
+                                            are often amusing and tell short, funny or nonsensical stories. .</p>
+                                    </div>
+                                </div>
+                            </div><!-- end swiper slider -->
+
+                            <div class="swiper-slide mb-12">
+                                <div class="relative bg-white rounded-md h-full">
+                                    <div
+                                        class="absolute -top-[20%] start-0 translate-x-4 h-24 bg-white p-2 rounded-md overflow-hidden">
+                                        <img src="assets/images/avatars/img-3.png" alt=""
+                                            class="rounded-md max-w-full max-h-full">
+                                    </div>
+
+                                    <div class="px-6 pb-6 pt-16">
+                                        <p class="font-medium text-gray-500">@michael</p>
+                                        <h3 class="text-xl font-bold text-gray-800 mb-0.5">Michael Ellis</h3>
+                                        <p class="font-medium text-gray-500 mb-4">UI/UX designer</p>
+                                        <p class="text-gray-500">We all intend to plan ahead, but too often let the
+                                            day-to-day minutia get in the way of making a calendar.</p>
+                                    </div>
+                                </div>
+                            </div><!-- end swiper slider -->
+
+                            <div class="swiper-slide mb-12">
+                                <div class="relative bg-white rounded-md h-full">
+                                    <div
+                                        class="absolute -top-[20%] start-0 translate-x-4 h-24 bg-white p-2 rounded-md overflow-hidden">
+                                        <img src="assets/images/avatars/img-8.png" alt=""
+                                            class="rounded-md max-w-full max-h-full">
+                                    </div>
+
+                                    <div class="px-6 pb-6 pt-16">
+                                        <p class="font-medium text-gray-500">@ruben</p>
+                                        <h3 class="text-xl font-bold text-gray-800 mb-0.5">Ruben Gouse</h3>
+                                        <p class="font-medium text-gray-500 mb-4">Web devloper</p>
+
+                                        <p class="text-gray-500">These qualities can be combined perfectly natural.
+                                            However, things like people look miserable.</p>
+                                    </div>
+                                </div>
+                            </div><!-- end swiper slider -->
+
+                            <div class="swiper-slide mb-12">
+                                <div class="relative bg-white rounded-md h-full">
+                                    <div
+                                        class="absolute -top-[20%] start-0 translate-x-4 h-24 bg-white p-2 rounded-md overflow-hidden">
+                                        <img src="assets/images/avatars/img-5.png" alt=""
+                                            class="rounded-md max-w-full max-h-full">
+                                    </div>
+
+                                    <div class="px-6 pb-6 pt-16">
+                                        <p class="font-medium text-gray-500">@francis</p>
+                                        <h3 class="text-xl font-bold text-gray-800 mb-0.5">Francis Ibikunle</h3>
+                                        <p class="font-medium text-gray-500 mb-4">Manager</p>
+
+                                        <p class="text-gray-500">These alternatives to the classic Lorem Ipsum are
+                                            often amusing and tell short, funny or nonsensical stories.</p>
+                                    </div>
+                                </div>
+                            </div><!-- end swiper slider -->
+                        </div><!-- end swiper wrapper -->
+                        <div class="swiper-pagination z-10 !-start-0"></div>
+                    </div><!-- end swiper -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- FAQ Start -->
+    <section id="faq" class="py-24">
+        <div class="container">
+            <div class="flex items-center justify-center mb-14">
+                <div class="max-w-2xl text-center">
+                    <h5 class="capitalize text-lg  text-gray-800 font-medium mb-2">Help <span
+                            class="font-semibold text-primary">Center</span></h5>
+                    <h2 class="text-3xl/snug font-bold text-gray-800 mb-1">Frequently asked questions</h2>
+                    <p class="text-base text-gray-600">Nemo enim ipsam voluptatem that quia voluptas aut fugit </p>
+                </div>
+            </div>
+
+            <div class="max-w-2xl mx-auto">
+                <div class="hs-accordion-group space-y-4">
+                    <div class="hs-accordion active border border-gray-200 rounded-lg overflow-hidden" id="faq-1">
+                        <button
+                            class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-gray-950 transition-all"
+                            aria-controls="faq-accordion-1">
+                            <h5 class="text-base font-semibold">
+                                <i class="uil uil-question-circle text-xl/none align-middle me-2"></i>
+                                Who are produces sit pleasure?
+                            </h5>
+                            <i data-lucide="chevron-up"
+                                class="h-4 w-4 transition-all duration-500 hs-accordion-active:-rotate-180"></i>
+                        </button>
+                        <div id="faq-accordion-1"
+                            class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+                            aria-labelledby="faq-1">
+                            <div class="px-6 pb-4 pt-0">
+                                <p class="text-gray-600 text-sm font-medium mb-2">
+                                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                    magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                                    nec, pellentesque eu, pretium quis, sem.
+                                </p>
+                                <p class="text-gray-600 text-sm font-medium">
+                                    Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hs-accordion border border-gray-200 rounded-lg overflow-hidden" id="faq-2">
+                        <button
+                            class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-gray-950 transition-all"
+                            aria-controls="faq-2">
+                            <h5 class="text-base font-semibold">
+                                <i class="uil uil-question-circle text-xl/none align-middle me-2"></i>
+                                What is quo voluptas nulla pariatur?
+                            </h5>
+                            <i data-lucide="chevron-up"
+                                class="h-4 w-4 transition-all duration-500 hs-accordion-active:-rotate-180"></i>
+                        </button>
+                        <div id="faq-2"
+                            class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                            aria-labelledby="faq-2">
+                            <div class="px-6 pb-4 pt-0">
+                                <p class="text-gray-600 text-sm font-medium mb-2">
+                                    Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+                                    porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+                                    viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+                                </p>
+                                <p class="text-gray-600 text-sm font-medium">
+                                    Duis leo. Sed fringilla mauris sit amet nibh.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hs-accordion border border-gray-200 rounded-lg overflow-hidden" id="faq-3">
+                        <button
+                            class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-gray-950 transition-all"
+                            aria-controls="faq-3">
+                            <h5 class="text-base font-semibold">
+                                <i class="uil uil-question-circle text-xl/none align-middle me-2"></i>
+                                How to do transactions using iMbank?
+                            </h5>
+                            <i data-lucide="chevron-up"
+                                class="h-4 w-4 transition-all duration-500 hs-accordion-active:-rotate-180"></i>
+                        </button>
+                        <div id="faq-3"
+                            class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                            aria-labelledby="faq-3">
+                            <div class="px-6 pb-4 pt-0">
+                                <p class="text-gray-600 text-sm font-medium mb-2">
+                                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                    magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                                    nec, pellentesque eu, pretium quis, sem.
+                                </p>
+                                <p class="text-gray-600 text-sm font-medium">
+                                    Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hs-accordion border border-gray-200 rounded-lg overflow-hidden" id="faq-4">
+                        <button
+                            class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-gray-950 transition-all"
+                            aria-controls="faq-4">
+                            <h5 class="text-base font-semibold">
+                                <i class="uil uil-question-circle text-xl/none align-middle me-2"></i>
+                                hot to activate iMbank service?
+                            </h5>
+                            <i data-lucide="chevron-up"
+                                class="h-4 w-4 transition-all duration-500 hs-accordion-active:-rotate-180"></i>
+                        </button>
+                        <div id="faq-4"
+                            class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                            aria-labelledby="faq-4">
+                            <div class="px-6 pb-4 pt-0">
+                                <p class="text-gray-600 text-sm font-medium mb-2">
+                                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                    magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                                    nec, pellentesque eu, pretium quis, sem.
+                                </p>
+                                <p class="text-gray-600 text-sm font-medium">
+                                    Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hs-accordion border border-gray-200 rounded-lg overflow-hidden" id="faq-5">
+                        <button
+                            class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-gray-950 transition-all"
+                            aria-controls="faq-5">
+                            <h5 class="text-base font-semibold">
+                                <i class="uil uil-question-circle text-xl/none align-middle me-2"></i>
+                                Who is eligible to open iMbank account?
+                            </h5>
+                            <i data-lucide="chevron-up"
+                                class="h-4 w-4 transition-all duration-500 hs-accordion-active:-rotate-180"></i>
+                        </button>
+                        <div id="faq-5"
+                            class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                            aria-labelledby="faq-5">
+                            <div class="px-6 pb-4 pt-0">
+                                <p class="text-gray-600 text-sm font-medium mb-2">
+                                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                    magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                                    nec, pellentesque eu, pretium quis, sem.
+                                </p>
+                                <p class="text-gray-600 text-sm font-medium">
+                                    Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hs-accordion border border-gray-200 rounded-lg overflow-hidden" id="faq-6">
+                        <button
+                            class="hs-accordion-toggle capitalize px-6 py-4 inline-flex items-center justify-between gap-x-3 w-full text-left text-gray-950 transition-all"
+                            aria-controls="faq-6">
+                            <h5 class="text-base font-semibold">
+                                <i class="uil uil-question-circle text-xl/none align-middle me-2"></i>
+                                wil i be given a passbook?
+                            </h5>
+                            <i data-lucide="chevron-up"
+                                class="h-4 w-4 transition-all duration-500 hs-accordion-active:-rotate-180"></i>
+                        </button>
+                        <div id="faq-6"
+                            class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+                            aria-labelledby="faq-6">
+                            <div class="px-6 pb-4 pt-0">
+                                <p class="text-gray-600 text-sm font-medium mb-2">
+                                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                    magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                                    nec, pellentesque eu, pretium quis, sem.
+                                </p>
+                                <p class="text-gray-600 text-sm font-medium">
+                                    Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Container End -->
+    </section>
+    <!-- FAQ End -->
+
+    <!-- Footer section start -->
+    <footer class="bg-center bg-no-repeat bg-slate-900 bg-[url('../images/footer-bg.png')]">
+        <div class="container lg:px-20">
+            <div class="flex flex-col lg:flex-row justify-between gap-14 py-24">
+                <div class="lg:w-3/12">
+                    <a href="#" class="flex items-center gap-2 logo">
+                        <img src="assets/images/logo-light.png" class="w-36" alt="">
+                    </a>
+
+                    <p class="text-gray-400 text-base font-medium max-w-xs mt-6">Start project with tailwind css
+                        provide everything you need.</p>
+                    <h5 class="text-slate-300 2xl:text-lg text-base mb-4 mt-6">Follow Us :</h5>
+                    <ul class="flex flex-wrap items-center gap-2">
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="h-10 w-10 inline-flex items-center justify-center bg-slate-800 rounded-lg transition-all duration-500 group hover:bg-primary"><i
+                                    data-lucide="facebook"
+                                    class="h-5 w-5 text-gray-400 group-hover:text-white group-hover:fill-white/30"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="h-10 w-10 inline-flex items-center justify-center bg-slate-800 rounded-lg transition-all duration-500 group hover:bg-pink-600"><i
+                                    data-lucide="instagram"
+                                    class="h-5 w-5 text-gray-400 group-hover:text-white group-hover:fill-white/30"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="h-10 w-10 inline-flex items-center justify-center bg-slate-800 rounded-lg transition-all duration-500 group hover:bg-sky-600"><i
+                                    data-lucide="twitter"
+                                    class="h-5 w-5 text-gray-400 group-hover:text-white group-hover:fill-white/30"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"
+                                class="h-10 w-10 inline-flex items-center justify-center bg-slate-800 rounded-lg transition-all duration-500 group hover:bg-blue-800"><i
+                                    data-lucide="linkedin"
+                                    class="h-5 w-5 text-gray-400 group-hover:text-white group-hover:fill-white/30"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="lg:w-8/12">
+                    <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-6">
+                        <div class="">
+                            <ul class="flex flex-col gap-3">
+                                <h5 class="xl:text-xl lg:text-lg font-semibold text-gray-200 mb-2">About Us</h5>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Support Center</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Customer Support</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        About Us</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Copyright</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Popular Campaign</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Return Policy</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Terms & Conditions</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="">
+                            <ul class="flex flex-col gap-3">
+                                <h5 class="xl:text-xl lg:text-lg font-semibold text-gray-200 mb-2">My Account</h5>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Press Inquiries</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Social Media Directories</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Images & B-roll</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Site Map</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Store Hours</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Permissions</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Speaker Requests</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="">
+                            <ul class="flex flex-col gap-3">
+                                <h5 class="xl:text-xl lg:text-lg font-semibold text-gray-200 mb-2">Policy</h5>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Application Security</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Softwere Principles</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Softwere Policy</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);"
+                                        class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i
+                                            data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i>
+                                        Risponsible Supply</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Grid End -->
+        </div><!-- Container End -->
+
+        <div class="border-t border-slate-700/20 h-[75px]">
+            <div
+                class="container lg:px-20 flex flex-wrap justify-center items-center h-full  md:justify-between text-center md:text-start">
+                <p class="text-base font-medium text-gray-400">
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>
+                    © Opixo - <a href="#">Design crafted <i data-lucide="heart"
+                            class="inline h-4 w-4 text-red-500 fill-red-500"></i> by Coderthemes.com</a>
+                </p>
+                <p class="text-base font-medium text-gray-400">
+                    <a href="#">Terms Conditions & Policy</a>
+                </p>
+            </div><!-- Flex End -->
+        </div><!-- Container End -->
+        </div>
+    </footer>
+    <!-- Footer section End -->
+
+    <!-- Back To Top Start -->
+    <button id="back-to-top" onclick="topFunction()"
+        class="fixed text-xl rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-primary/20 text-primary flex justify-center items-center">
+        <i class="uil uil-arrow-up text-base"></i>
+    </button>
+    <!-- Back To Top End -->
+
+    <!-- Watch Video Modal Start -->
+    <div id="watchvideomodal"
+        class="hs-overlay hidden fixed top-0 left-0 z-[60] transition-all duration-500 fc-modal w-full h-full min-h-full items-center hs-overlay-open:flex">
+        <div
+            class="hs-overlay-open:opacity-100 duration-500 opacity-0 ease-out transition-[opacity] relative sm:max-w-2xl sm:w-full sm:mx-auto flex-col bg-white shadow-sm rounded-md overflow-hidden group">
+            <video id="VisaChipCardVideo" class="w-full" controls="">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                <!--Browser does not support <video> tag -->
+            </video>
+        </div>
+    </div>
+    <!-- Watch Video Modal End -->
+
+    <!-- Plugin Js -->
+    <script src="{{ asset('client/dist/assets/libs/preline/preline.js') }}"></script>
+
+    <!-- Gumshoejs -->
+    <script src="{{ asset('client/dist/assets/libs/gumshoejs/gumshoe.polyfills.min.js') }}"></script>
+
+    <!-- Swiper Js -->
+    <script src="{{ asset('client/dist/assets/libs/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('client/dist/assets/js/swiper.js') }}"></script>
+
+    <!-- Lucid Icons -->
+    <script src="{{ asset('client/dist/assets/libs/lucide/umd/lucide.min.js') }}"></script>
+
+    <!-- Theme Js -->
+    <script src="{{ asset('client/dist/assets/js/theme.js') }}"></script>
+
+
+</body>
+
+</html>

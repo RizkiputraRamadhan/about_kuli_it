@@ -13,7 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::redirect('/', '/dashboard-general-dashboard');
+// Client
+Route::get('/', function () {
+    return view('pages.client.template', ['type_menu' => 'dashboard']);
+});
 
 // Dashboard
 Route::get('/dashboard-general-dashboard', function () {

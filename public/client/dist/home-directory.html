@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Opixo - Tailwind CSS Multipurpose Landing Page Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Tailwind CSS Saas & Software Landing Page Template, agency, application, business, clean, creative, it solutions, modern, multipurpose, saas, software, tailwind css." name="description" />
+    <meta content="coderthemes" name="author" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- style css -->
+    <link href="assets/css/style.min.css" rel="stylesheet" type="text/css">
+
+    <!-- unicons Icons css -->
+    <link href="assets/libs/@iconscout/unicons/css/line.css" rel="stylesheet" type="text/css">
+
+    <!--Swiper slider css-->
+    <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <header id="navbar-sticky" class="navbar nav-light">
+        <div class="container">
+            <nav>
+                <!-- Navbar Brand Logo -->
+                <a href="home-directory.html" class="logo">
+                    <img src="assets/images/logo-dark.png" class="h-10 logo-dark" alt="Opixo Logo">
+                    <img src="assets/images/logo-light.png" class="h-10 logo-light" alt="Opixo Logo">
+                </a>
+
+                <!-- Moblie Menu Toggle Button (Offcanvas Button) -->
+                <div class="lg:hidden flex items-center ms-auto px-2.5">
+                    <button class="hs-collapse-toggle inline-flex items-center justify-center h-9 w-12 rounded-md border border-gray-300 bg-slate-300/30" type="button" id="hs-unstyled-collapse" data-hs-collapse="#mobileMenu" data-hs-type="collapse">
+                        <i class="uil uil-bars text-2xl"></i>
+                    </button>
+                </div>
+
+                <!-- Nevigation Menu -->
+                <div id="mobileMenu" class="hs-collapse overflow-hidden transition-all duration-300 lg:basis-auto basis-full grow hidden lg:flex items-center justify-center mx-auto mt-2 lg:mt-0">
+                    <ul id="navbar-navlist" class="navbar-nav">
+                        <!-- Home Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+
+                        <!-- Service Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <!-- Features Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+
+                        <!-- Price Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Testimonials</a>
+                        </li>
+
+                        <!-- Review Page Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                    </ul>
+                    <!-- Download Button -->
+                    <div class="lg:hidden flex items-center pt-4 mt-4 lg:pt-0 lg:mt-0 border-t border-gray-200 lg:border-none">
+                        <a href="#" class="nav-btn">Book Now</a>
+                    </div>
+                </div>
+                <!-- Download Button -->
+                <div class="hidden lg:flex items-center">
+                    <a href="#" class="nav-btn">Book Now</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="py-72 relative">
+        <div class="container">
+            <div class="absolute inset-0 bg-cover bg-no-repeat"
+                style="background-image: url(assets/images/landing/directory/hero-bg.jpg);">
+                <div class="relative w-full h-full z-30 bg-black/60"></div>
+            </div>
+
+            <div class="relative z-30">
+                <div class="max-w-2xl">
+                    <h2 class="text-6xl/tight font-bold text-white mb-4">Find Your Dream Place Just In a Click</h2>
+                    <p class="text-lg text-slate-100 mb-16">Maecenas tempus, tellus eget condimentum rhoncus quam semper
+                        libero sit amet adipiscing sem neque sed ipsum nam quam nunc blandit vel luctus pulvinar.</p>
+                    <div class="lg:flex items-center gap-5 rounded shadow-sm p-3 border bg-white">
+                        <div class="sm:flex items-center justify-between w-full">
+                            <div class="flex w-full items-center border-r border-b sm:border-b-0">
+                                <i data-lucide="search"></i>
+                                <input type="text" id="hero-input" name="hero-input"
+                                    class="border-0 w-full focus:ring-0 bg-transparent"
+                                    placeholder="what are you searching for ?">
+                            </div>
+                            <div class="flex w-full items-center ps-4">
+                                <i data-lucide="map-pin"></i>
+                                <input type="text" id="hero-input" name="hero-input"
+                                    class="border-0 w-full focus:ring-0 bg-transparent" placeholder="Location">
+                            </div>
+                            <button
+                                class="inline-flex items-center px-6 py-3 text-white text-base duration-300 rounded-md bg-gradient-to-r from-red-600 via-red-500 to-red-400">
+                                <span class="hidden sm:inline">Search</span>
+                                <i class="uil uil-search text-white text-lg/none ms-2"></i>
+                            </button>
+                        </div>
+                    </div><!-- Flex End -->
+                </div>
+            </div>
+        </div><!-- Container End -->
+
+        <div class="hidden  md:block absolute z-30 py-9 bg-neutral-800/50 bottom-0 start-0 end-0">
+            <div class="grid xl:grid-cols-6 lg:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-5">
+                <div class="flex items-center justify-center ps-6 lg:p-0">
+                    <div class="bg-[url('../images/landing/directory/icons/icon-bg.png')]">
+                        <img src="assets/images/landing/directory/icons/restaurant.png" alt="">
+                    </div>
+                    <div class="ms-4">
+                        <h4 class="text-lg font-semibold text-white">Restaurant</h4>
+                        <h5 class="font-bold text-white">255</h5>
+                    </div>
+                </div><!-- Flex End -->
+
+                <div class="flex items-center justify-center">
+                    <div class="bg-[url('../images/landing/directory/icons/icon-bg.png')]">
+                        <img src="assets/images/landing/directory/icons/place.png" alt="">
+                    </div>
+                    <div class="ms-4">
+                        <h4 class="text-lg font-semibold text-white">Place's</h4>
+                        <h5 class="font-bold text-white">350</h5>
+                    </div>
+                </div><!-- Flex End -->
+
+                <div class="flex items-center justify-center">
+                    <div class="bg-[url('../images/landing/directory/icons/icon-bg.png')]">
+                        <img src="assets/images/landing/directory/icons/hotels.png" alt="">
+                    </div>
+                    <div class="ms-4">
+                        <h4 class="text-lg font-semibold text-white">Hotel's</h4>
+                        <h5 class="font-bold text-white">180</h5>
+                    </div>
+                </div><!-- Flex End -->
+
+                <div class="flex items-center justify-center ps-6 lg:p-0">
+                    <div class="bg-[url('../images/landing/directory/icons/icon-bg.png')]">
+                        <img src="assets/images/landing/directory/icons/shopping.png" alt="">
+                    </div>
+                    <div class="ms-4">
+                        <h4 class="text-lg font-semibold text-white">Shopping</h4>
+                        <h5 class="font-bold text-white">750</h5>
+                    </div>
+                </div><!-- Flex End -->
+
+                <div class="flex items-center justify-center">
+                    <div class="bg-[url('../images/landing/directory/icons/icon-bg.png')]">
+                        <img src="assets/images/landing/directory/icons/house.png" alt="">
+                    </div>
+                    <div class="ms-4">
+                        <h4 class="text-lg font-semibold text-white">House</h4>
+                        <h5 class="font-bold text-white">426</h5>
+                    </div>
+                </div><!-- Flex End -->
+
+                <div class="flex items-center justify-center">
+                    <div class="bg-[url('../images/landing/directory/icons/icon-bg.png')]">
+                        <img src="assets/images/landing/directory/icons/game.png" alt="">
+                    </div>
+                    <div class="ms-4">
+                        <h4 class="text-lg font-semibold text-white">House</h4>
+                        <h5 class="font-bold text-white">375</h5>
+                    </div>
+                </div><!-- Flex End -->
+            </div><!-- Grid End -->
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- latest directory Section Start -->
+    <section id="about" class="py-24">
+        <div class="container">
+            <div class="flex items-center justify-center mb-14">
+                <div class="max-w-2xl text-center">
+                    <h2 class="text-3xl/snug font-bold capitalize text-gray-800 mb-1">Latest Directory</h2>
+                    <p class="text-base text-gray-600">Itaque earum rerum tenetur sapiente delectus aut reiciendis voluptatibus doloribus asperiores repellat.</p>
+                </div>
+            </div><!-- end flex -->
+
+            <div class="grid lg:grid-cols-2  grid-cols-1 gap-6">
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="relative p-2 h-full w-full overflow-hidden">
+                            <img src="assets/images/landing/directory/directory/1.jpg"
+                                class="w-full h-full rounded-md transition-all duration-700" alt="">
+                            <div class="absolute inset-0 top-auto bottom-5 right-5 left-auto">
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 text-amber-300"></i>
+                            </div>
+                        </div><!-- end grid-col -->
+                        <div class="p-4 h-full flex flex-col">
+                            <div class="">
+                                <a href="javascript:void(0);" class="text-lg font-bold mb-2.5">The Langham-Chicago</a>
+                            <p class="text-sm font-medium text-slate-500 mb-10 mt-3">Sed ut perspiciatis unde omnis iste natu sit us voluptatem accusantiumu as doloremque totam rem aperiam.</p>
+                            </div>
+                            <div class="flex flex-col items-start mt-auto">
+                                <span class="inline-flex items-center bg-primary/20 text-primary text-xs/none font-semibold capitalize rounded mb-2.5 border-s-2 border-primary px-2 py-1.5">$49 Per person</span>
+                                <div class="flex items-center justify-center">
+                                    <img src="assets/images/avatars/img-1.png" class="w-10 h-10 rounded-full" alt="">
+                                    <h5 class="text-base font-semibold text-slate-800 ps-4">Gina Sanchez</h5>
+                                </div>
+                            </div>
+                        </div><!-- end grid-col -->
+                    </div><!-- end grid -->
+                </div><!-- end grid-col -->
+
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="relative p-2 h-full w-full overflow-hidden">
+                            <img src="assets/images/landing/directory/directory/2.jpg"
+                                class="w-full h-full rounded-md transition-all duration-700" alt="">
+                            <div class="absolute inset-0 top-auto bottom-5 right-5 left-auto">
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                            </div>
+                        </div><!-- end grid-col -->
+                        <div class="p-4 h-full flex flex-col">
+                            <div class="">
+                                <a href="javascript:void(0);" class="text-lg font-bold mb-2.5">Primland - Meadows of dan</a>
+                            <p class="text-sm font-medium text-slate-500 mb-10 mt-3">At vero eos et accusamus et iusto dignissimos ducimus blanaitiis praesentium voluptatum.</p>
+                            </div>
+                            <div class="flex flex-col items-start mt-auto">
+                                <span class="inline-flex items-center bg-primary/20 text-primary text-xs/none font-semibold capitalize rounded mb-2.5 border-s-2 border-primary px-2 py-1.5">$69 Per person</span>
+                                <div class="flex items-center justify-center">
+                                    <img src="assets/images/avatars/img-2.png" class="w-10 h-10 rounded-full" alt="">
+                                    <h5 class="text-base font-semibold text-slate-800 ps-4">Joseph Cohen</h5>
+                                </div>
+                            </div>
+                        </div><!-- end grid-col -->
+                    </div><!-- end grid -->
+                </div><!-- end grid-col -->
+
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="relative p-2 h-full w-full overflow-hidden">
+                            <img src="assets/images/landing/directory/directory/3.jpg"
+                                class="w-full h-full rounded-md transition-all duration-700" alt="">
+                            <div class="absolute inset-0 top-auto bottom-5 right-5 left-auto">
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 text-amber-300"></i>
+                            </div>
+                        </div><!-- end grid-col -->
+                        <div class="p-4 h-full flex flex-col">
+                            <div class="">
+                                <a href="javascript:void(0);" class="text-lg font-bold mb-2.5">The Hay-Adams-Washington</a>
+                            <p class="text-sm font-medium text-slate-500 mb-10 mt-3">Et harum quidem rerum facilis set et expedita distinctio. Nam lidero tempore cum soluta nobis.</p>
+                            </div>
+                            <div class="flex flex-col items-start mt-auto">
+                                <span class="inline-flex items-center bg-primary/20 text-primary text-xs/none font-semibold capitalize rounded mb-2.5 border-s-2 border-primary px-2 py-1.5">$69 Per person</span>
+                                <div class="flex items-center justify-center">
+                                    <img src="assets/images/avatars/img-3.png" class="w-10 h-10 rounded-full" alt="">
+                                    <h5 class="text-base font-semibold text-slate-800 ps-4">Aaron Johnson</h5>
+                                </div>
+                            </div>
+                        </div><!-- end grid-col -->
+                    </div><!-- end grid -->
+                </div><!-- end grid-col -->
+
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="relative p-2 h-full w-full overflow-hidden">
+                            <img src="assets/images/landing/directory/directory/4.jpg"
+                                class="w-full h-full rounded-md transition-all duration-700" alt="">
+                            <div class="absolute inset-0 top-auto bottom-5 right-5 left-auto">
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                            </div>
+                        </div><!-- end grid-col -->
+                        <div class="p-4 h-full flex flex-col">
+                            <div class="">
+                                <a href="javascript:void(0);" class="text-lg font-bold mb-2.5">Montage Deer Valley-Utah</a>
+                            <p class="text-sm font-medium text-slate-500 mb-10 mt-3">Nemo enim ipsam voluptatem aut odit us fugit sed quia magni dolores aut odit us fugit magni dolores.</p>
+                            </div>
+                            <div class="flex flex-col items-start mt-auto">
+                                <span class="inline-flex items-center bg-primary/20 text-primary text-xs/none font-semibold capitalize rounded mb-2.5 border-s-2 border-primary px-2 py-1.5">$49 Per person</span>
+                                <div class="flex items-center justify-center">
+                                    <img src="assets/images/avatars/img-4.png" class="w-10 h-10 rounded-full" alt="">
+                                    <h5 class="text-base font-semibold text-slate-800 ps-4">Sharom Donato</h5>
+                                </div>
+                            </div>
+                        </div><!-- end grid-col -->
+                    </div><!-- end grid -->
+                </div><!-- end grid-col -->
+
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="relative p-2 h-full w-full overflow-hidden">
+                            <img src="assets/images/landing/directory/directory/5.jpg" class="w-full h-full rounded-md transition-all duration-700" alt="">
+                            <div class="absolute inset-0 top-auto bottom-5 right-5 left-auto">
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 text-amber-300"></i>
+                            </div>
+                        </div><!-- end grid-col -->
+                        <div class="p-4 h-full flex flex-col">
+                            <div class="">
+                                <a href="javascript:void(0);" class="text-lg font-bold mb-2.5">The Lowell - New Youk</a> 
+                            <p class="text-sm font-medium text-slate-500 mb-10 mt-3">Itaque earum rerum hic tenetur a sapiente ut aut reiciendis voluptatibus consequatur doloribus.</p>
+                            </div>
+                            <div class="flex flex-col items-start mt-auto">
+                                <span class="inline-flex items-center bg-primary/20 text-primary text-xs/none font-semibold capitalize rounded mb-2.5 border-s-2 border-primary px-2 py-1.5">$39 Per person</span>
+                                <div class="flex items-center justify-center">
+                                    <img src="assets/images/avatars/img-5.png" class="w-10 h-10 rounded-full" alt="">
+                                    <h5 class="text-base font-semibold text-slate-800 ps-4">Richard Fowler</h5>
+                                </div>
+                            </div>
+                        </div><!-- end grid-col -->
+                    </div><!-- end grid -->
+                </div><!-- end grid-col -->
+
+                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                        <div class="relative p-2 h-full w-full overflow-hidden">
+                            <img src="assets/images/landing/directory/directory/6.jpg"
+                                class="w-full h-full rounded-md transition-all duration-700" alt="">
+                            <div class="absolute inset-0 top-auto bottom-5 right-5 left-auto">
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-4 w-4 text-amber-300"></i>
+                            </div>
+                        </div><!-- end grid-col -->
+                        <div class="p-4 h-full flex flex-col">
+                            <div class="">
+                                <a href="javascript:void(0);" class="text-lg font-bold mb-2.5">Four Seasons Hotel-Chicago</a>
+                            <p class="text-sm font-medium text-slate-500 mb-10 mt-3">Itaque earum rerum hic tenetur a sapiente ut aut reiciendis voluptatibus consequatur doloribus.</p>
+                            </div>
+                            <div class="flex flex-col items-start mt-auto">
+                                <span class="inline-flex items-center bg-primary/20 text-primary text-xs/none font-semibold capitalize rounded mb-2.5 border-s-2 border-primary px-2 py-1.5">$89 Per person</span>
+                                <div class="flex items-center justify-center">
+                                    <img src="assets/images/avatars/img-6.png" class="w-10 h-10 rounded-full" alt="">
+                                    <h5 class="text-base font-semibold text-slate-800 ps-4">Jessica Swift</h5>
+                                </div>
+                            </div>
+                        </div><!-- end grid-col -->
+                    </div><!-- end grid -->
+                </div><!-- end grid-col -->
+            </div><!-- Grid End -->
+        </div><!-- Container End -->
+    </section>
+    <!-- latest directory Section End -->
+
+    <!-- How it work Section Start -->
+    <section id="features" class="py-20 bg-primary/5 30">
+        <div class="container">
+            <div class="flex items-center justify-center mb-14">
+                <div class="max-w-2xl text-center">
+                    <h2 class="text-3xl/snug font-bold capitalize text-gray-800 mb-1">How does it work?</h2>
+                    <p class="text-base text-gray-600">Itaque earum rerum tenetur sapiente delectus aut reiciendis
+                        voluptatibus doloribus asperiores repellat.</p>
+                </div>
+            </div><!-- end flex -->
+
+            <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
+                <div class="bg-white rounded-xl shadow-[0_8px_48px_#eee] group">
+                    <div class="rounded-lg p-6 text-center shrink-0">
+                        <div class="inline-flex items-center justify-center rounded-full">
+                            <i data-lucide="map-pin" class="h-12 w-12 text-gray-800"></i>
+                        </div>
+                        <h3 class="md:text-2xl text-xl font-bold text-gray-800 mb-2 mt-6">Search location</h3>
+                        <p class="md:text-base font-medium text-slate-500 mb-6">Itaque earum a rerum tenetur a sapiente
+                            asperiores repellat.</p>
+                        <a href="javascript:void(0);" class="relative font-medium text-primary"><span
+                                class="absolute start-0 -bottom-0.5 w-0 h-0.5 group-hover:w-10/12 bg-primary transition-all duration-500"></span>
+                            Read more <i data-lucide="move-right" class="h-4 w-auto inline-block ms-2"></i></a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-[0_8px_48px_#eee] group">
+                    <div class="rounded-lg p-6 text-center shrink-0">
+                        <div class="inline-flex items-center justify-center rounded-full">
+                            <i data-lucide="alert-circle" class="h-12 w-12 text-gray-800"></i>
+                        </div>
+                        <h3 class="md:text-2xl text-xl font-bold text-gray-800 mb-2 mt-6">View Location info</h3>
+                        <p class="md:text-base font-medium text-slate-500 mb-6">Ut enim ad minima veniam, quis nostrum
+                            aliquid commodi.</p>
+                        <a href="javascript:void(0);" class="relative font-medium text-primary"><span
+                                class="absolute start-0 -bottom-0.5 w-0 h-0.5 group-hover:w-10/12 bg-primary transition-all duration-500"></span>
+                            Read more <i data-lucide="move-right" class="h-4 w-auto inline-block ms-2"></i></a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-[0_8px_48px_#eee] group">
+                    <div class="rounded-lg p-6 text-center shrink-0">
+                        <div class="inline-flex items-center justify-center rounded-full">
+                            <i data-lucide="smartphone" class="h-12 w-12 text-gray-800"></i>
+                        </div>
+                        <h3 class="md:text-2xl text-xl font-bold text-gray-800 mb-2 mt-6">Book or Call</h3>
+                        <p class="md:text-base font-medium text-slate-500 mb-6">Sed ut perspiciatis unde ominis iste
+                            natus sunt explicabo.</p>
+                        <a href="javascript:void(0);" class="relative font-medium text-primary"><span
+                                class="absolute start-0 -bottom-0.5 w-0 h-0.5 group-hover:w-10/12 bg-primary transition-all duration-500"></span>
+                            Read more <i data-lucide="move-right" class="h-4 w-auto inline-block ms-2"></i></a>
+                    </div>
+                </div>
+            </div><!-- Grid End -->
+        </div><!-- Container End -->
+    </section>
+    <!-- How it work Section End -->
+
+    <!-- directory cta  Section Start -->
+    <section class="py-28 relative">
+        <div class="container px-1 sm:px-[32px]">
+            <div
+                class="absolute inset-0 bg-cover bg-no-repeat bg-center bg-[url('../images/landing/directory/cta-bg.jpg')]">
+                <div class="relative w-full h-full z-30 bg-black/60"></div>
+            </div>
+            <div class="flex justify-center">
+                <div class="max-w-2xl">
+                    <div class="relative z-30 text-center">
+                        <h5 class="capitalize text-lg  text-white font-medium mb-2">Find the <span
+                                class="font-semibold text-primary">best place</span></h5>
+                        <h2 class="text-5xl/snug font-bold capitalize text-white mb-1">Tour & Farm House</h2>
+                        <p class="text-base text-white mb-10">At vero eos accusamus a iusto odio dignissimos ducimus qui
+                            blanditiis praesentium voluptayum deleniti corrupti quos dolores quas molestias excepturi
+                            occaecati cupiditate provident facilisestetsit expedita distinctio.</p>
+                        <a href="javascript:void(0);"
+                            class="bg-white/90 text-primary hover:bg-white rounded-md transition-all duration-700 py-3 px-6">Get
+                            Started</a>
+                    </div>
+                </div>
+            </div><!-- Flex End -->
+        </div><!-- Container End -->
+    </section>
+    <!-- directory cta  Section End -->
+
+    <!-- testimonial Section Start -->
+    <section id="testimonial" class="py-20">
+        <div class="container">
+            <div class="flex items-center justify-center mb-14">
+                <div class="max-w-2xl text-center">
+                    <h2 class="text-3xl/snug font-bold capitalize text-gray-800 mb-1">Clients Testimonials</h2>
+                    <p class="text-base text-gray-600">Sed ut perspiciatis unde omnis iste natus error voluptatem
+                        accusantium doloremque rem aperiam.</p>
+                </div>
+            </div>
+
+            <!-- Swiper -->
+            <div id="testimonial_directory" class="swiper">
+                <div class="swiper-wrapper -z-10">
+                    <div class="swiper-slide">
+                        <div class="flex flex-col justify-center items-center text-center">
+                            <img src="assets/images/avatars/img-1.png" alt="cta-img" class="h-24 w-24 rounded-full">
+
+                            <h3 class="text-lg font-bold text-gray-800 mt-5">Deborah Shaw</h3>
+                            <p class="text-base font-semibold text-gray-500">Web Developer, USA</p>
+
+                            <div class="flex items-center justify-center mt-5">
+                                <i data-lucide="star" class="inline h-5 w-5 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-5 w-5 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-5 w-5 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-5 w-5 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-5 w-5 fill-amber-300 text-amber-300"></i>
+                            </div>
+
+                            <p class="text-base font-medium mt-5 max-w-2xl">“ In enim justo, rhoncus ut, imperdiet a,
+                                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+                                Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. ”</p>
+                        </div>
+                    </div><!-- Swiper-slide End -->
+
+                    <div class="swiper-slide">
+                        <div class="flex flex-col justify-center items-center text-center">
+                            <img src="assets/images/avatars/img-2.png" alt="cta-img" class="h-24 w-24 rounded-full">
+
+                            <h3 class="text-lg font-bold text-gray-800 mt-5">Linda Young</h3>
+                            <p class="text-base font-semibold text-gray-500">Graphic Designer, USA</p>
+
+                            <div class="flex items-center justify-center mt-5">
+                                <i data-lucide="star" class="inline h-5 w-5 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-5 w-5 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-5 w-5 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-5 w-5 fill-amber-300 text-amber-300"></i>
+                                <i data-lucide="star" class="inline h-5 w-5 fill-amber-300 text-amber-300"></i>
+                            </div>
+
+                            <p class="text-base font-medium mt-5 max-w-2xl">“ Aenean leo ligula, porttitor eu, consequat
+                                vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                                tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+                                imperdiet. ”</p>
+                        </div>
+                    </div><!-- Swiper-slide End -->
+                </div>
+
+                <div class="hidden md:block">
+                    <div class="swiper-button-prev after:hidden ms-32" tabindex="0" role="button"
+                        aria-label="Previous slide" aria-controls="swiper-wrapper-88861593b321a7d3">
+                        <div class="relative">
+                            <span
+                                class="absolute -start-1.5 w-8 h-8 top-1/2 -translate-y-1/2 border-2 -z-10 rounded-full border-primary"></span>
+                            <i data-lucide="move-left" class="h-10 w-10 text-gray-600"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next after:hidden me-32" tabindex="0" role="button"
+                        aria-label="Next slide" aria-controls="swiper-wrapper-88861593b321a7d3">
+                        <div class="relative">
+                            <span
+                                class="absolute -end-1.5 w-8 h-8 top-1/2 -translate-y-1/2 border-2 -z-10 rounded-full border-primary"></span>
+                            <i data-lucide="move-right" class="h-10 w-10 text-gray-600"></i>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Swiper End -->
+        </div><!-- Container End -->
+    </section>
+    <!-- testimonial Section End -->
+
+    <!-- Blog Section Start -->
+    <section id="blog" class="py-20 bg-primary/5 30 relative bg-cover bg-no-repeat bg-[url('../images/landing/directory/cta-bg.png')]">
+        <div class="container">
+            <div class="relative z-30">
+                <div class="flex items-center justify-center mb-14">
+                    <div class="max-w-2xl text-center">
+                        <h2 class="text-3xl/snug font-bold capitalize text-gray-800 mb-1">Latest Blog</h2>
+                        <p class="text-base text-gray-600">Sed ut perspiciatis unde ominis iste natus error voluptatem accusantium doloremque rem aperiam.</p>
+                    </div>
+                </div><!-- end flex -->
+
+                <div class="grid gap-4 px-4 sm:px-0 lg:grid-cols-2">
+                    <div class="bg-white group rounded-lg space-y-6 overflow-hidden p-3">
+                        <div class="relative rounded-lg overflow-hidden">
+                            <img class="mx-auto h-full w-full object-cover object-top ransition duration-500 group-hover:scale-105" src="assets/images/landing/directory/directory/2.jpg" alt="woman" loading="lazy" width="640" height="805" />
+                            <div class="absolute inset-0">
+                                <div class="bg-black/60 h-full w-full rounded">
+                                    <div class="flex items-end h-full p-4">
+                                        <div>
+                                            <p class="mb-2 text-white font-semibold">27 Aug 2021</p>
+                                            <h5 class="text-3xl font-bold text-white mb-2">Primland - Meadows of dan</h5>
+                                            <p class="text-base font-semibold text-gray-100 mb-8 whitespace-nowrap md:whitespace-normal truncate"> suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris.</p>
+                                            <a href="#" class="text-white border-b border-dashed border-gray-200 pb-1">Read More <i data-lucide="move-right" class="inline h-4 w-4 ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white group rounded-lg space-y-6 overflow-hidden p-3">
+                        <div class="relative rounded-lg overflow-hidden">
+                            <img class="mx-auto h-full w-full object-cover object-top ransition duration-500 group-hover:scale-105" src="assets/images/landing/directory/directory/3.jpg" alt="woman" loading="lazy" width="640" height="805" />
+                            <div class="absolute inset-0">
+                                <div class="bg-black/60 h-full w-full rounded">
+                                    <div class="flex items-end h-full p-4">
+                                        <div>
+                                            <p class="mb-2 text-white font-semibold">31 Jan 2022</p>
+                                            <h5 class="text-3xl font-bold text-white mb-2">The Hay-Adams-Washington</h5>
+                                            <p class="text-base font-semibold text-gray-100 mb-8 whitespace-nowrap md:whitespace-normal truncate"> Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien.</p>
+                                            <a href="#" class="text-white border-b border-dashed border-gray-200 pb-1">Read More <i data-lucide="move-right" class="inline h-4 w-4 ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center mt-14">
+                    <a href="#" class="inline-flex items-center justify-center border border-dashed font-semibold border-primary text-primary px-4 py-2 transition-all duration-200 rounded-md hover:bg-primary hover:text-white">Load More <i data-lucide="loader" class="inline h-5 w-5 ms-2"></i></a>
+                </div>
+
+            </div>
+        </div><!-- Container End -->
+    </section>
+    <!-- Blog Section End -->
+
+    <!--======= Footer section start======== -->
+    <footer class="bg-center bg-no-repeat bg-slate-900 bg-[url('../images/footer-bg.png')]">
+        <div class="container lg:px-20">
+            <div class="flex flex-col lg:flex-row justify-between gap-14 py-24">
+                <div class="lg:w-3/12">
+                    <a href="#" class="flex items-center gap-2 logo">
+                        <img src="assets/images/logo-light.png" class="w-36" alt="">
+                    </a>
+
+                    <p class="text-gray-400 text-base font-medium max-w-xs mt-6">Start project with tailwind css provide everything you need.</p>
+                    <h5 class="text-slate-300 2xl:text-lg text-base mb-4 mt-6">Follow Us :</h5>
+                    <ul class="flex flex-wrap items-center gap-2">
+                        <li>
+                            <a href="javascript:void(0);" class="h-10 w-10 inline-flex items-center justify-center bg-slate-800 rounded-lg transition-all duration-500 group hover:bg-primary"><i data-lucide="facebook" class="h-5 w-5 text-gray-400 group-hover:text-white group-hover:fill-white/30"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="h-10 w-10 inline-flex items-center justify-center bg-slate-800 rounded-lg transition-all duration-500 group hover:bg-pink-600"><i data-lucide="instagram" class="h-5 w-5 text-gray-400 group-hover:text-white group-hover:fill-white/30"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="h-10 w-10 inline-flex items-center justify-center bg-slate-800 rounded-lg transition-all duration-500 group hover:bg-sky-600"><i data-lucide="twitter" class="h-5 w-5 text-gray-400 group-hover:text-white group-hover:fill-white/30"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="h-10 w-10 inline-flex items-center justify-center bg-slate-800 rounded-lg transition-all duration-500 group hover:bg-blue-800"><i data-lucide="linkedin" class="h-5 w-5 text-gray-400 group-hover:text-white group-hover:fill-white/30"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="lg:w-8/12">
+                    <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-6">
+                        <div class="">
+                            <ul class="flex flex-col gap-3">
+                                <h5 class="xl:text-xl lg:text-lg font-semibold text-gray-200 mb-2">About Us</h5>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Support Center</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Customer Support</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> About Us</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Copyright</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Popular Campaign</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Return Policy</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Terms & Conditions</a>
+                                </li>
+                            </ul>
+                        </div>
+            
+                        <div class="">
+                            <ul class="flex flex-col gap-3">
+                                <h5 class="xl:text-xl lg:text-lg font-semibold text-gray-200 mb-2">My Account</h5>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Press Inquiries</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Social Media Directories</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Images & B-roll</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Site Map</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Store Hours</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Permissions</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Speaker Requests</a>
+                                </li>
+                            </ul>
+                        </div>
+            
+                        <div class="">
+                            <ul class="flex flex-col gap-3">
+                                <h5 class="xl:text-xl lg:text-lg font-semibold text-gray-200 mb-2">Policy</h5>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Application Security</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Softwere Principles</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Softwere Policy</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="text-base font-semibold text-gray-400 hover:text-white transition-all"><i data-lucide="circle-dot-dashed" class="inline-block h-4 w-4 me-2"></i> Risponsible Supply</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Grid End -->
+        </div><!-- Container End -->
+
+        <div class="border-t border-slate-700/20 h-[75px]">
+            <div class="container lg:px-20 flex flex-wrap justify-center items-center h-full  md:justify-between text-center md:text-start">
+                    <p class="text-base font-medium text-gray-400">
+                        <script>document.write(new Date().getFullYear())</script>
+                        © Opixo - <a href="#">Design crafted <i data-lucide="heart" class="inline h-4 w-4 text-red-500 fill-red-500"></i> by Coderthemes.com</a>
+                    </p>
+                    <p class="text-base font-medium text-gray-400">
+                        <a href="#">Terms Conditions & Policy</a>
+                    </p>
+                </div><!-- Flex End -->
+            </div><!-- Container End -->
+        </div>
+    </footer>
+    <!--======= Footer section End======== -->
+
+    <!-- Back To Top Start -->
+    <button id="back-to-top" onclick="topFunction()" class="fixed text-xl rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-primary/20 text-primary flex justify-center items-center">
+        <i class="uil uil-arrow-up text-base"></i>
+    </button>
+    <!-- Back To Top End -->
+
+    <!-- Plugin Js -->
+    <script src="assets/libs/preline/preline.js"></script>
+
+    <!-- Gumshoejs -->
+    <script src="assets/libs/gumshoejs/gumshoe.polyfills.min.js"></script>
+
+    <!-- Swiper Js -->
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
+
+    <!-- Lucid Icons -->
+    <script src="assets/libs/lucide/umd/lucide.min.js"></script>
+
+    <!-- Theme Js -->
+    <script src="assets/js/theme.js"></script>
+
+</body>
+
+</html>
