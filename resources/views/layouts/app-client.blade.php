@@ -24,7 +24,7 @@
     <meta name="twitter:title" content="@yield('title', 'Jasa Web Kuli IT Tecno')">
     <meta name="twitter:description" content="@yield('meta_description', 'Jasa pembuatan website dan system terpercaya dan terbukti pengerjaannya.')">
     <meta name="twitter:image" content="@yield('meta_image', asset('img/client/banner.png'))">
-    <meta name="twitter:site" content="@your_twitter_handle">
+    <meta name="twitter:site" content="@kuliittecno">
 
     <!-- Meta Tag Robots -->
     <meta name="robots" content="index, follow">
