@@ -14,7 +14,7 @@
     <!-- Open Graph (OG) untuk Social Media -->
     <meta property="og:title" content="@yield('title', 'Jasa Web Kuli IT Tecno')">
     <meta property="og:description" content="@yield('meta_description', 'Jasa pembuatan website dan system terpercaya dan terbukti pengerjaannya.')">
-    <meta property="og:image" content="@yield('meta_image', asset('img/client/banner.png'))">
+    <meta property="og:image" content="@yield('meta_image', secure_asset('img/client/banner.png'))">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Jasa Web Kuli IT Tecno">
@@ -23,7 +23,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="@yield('title', 'Jasa Web Kuli IT Tecno')">
     <meta name="twitter:description" content="@yield('meta_description', 'Jasa pembuatan website dan system terpercaya dan terbukti pengerjaannya.')">
-    <meta name="twitter:image" content="@yield('meta_image', asset('img/client/banner.png'))">
+    <meta name="twitter:image" content="@yield('meta_image', secure_asset('img/client/banner.png'))">
     <meta name="twitter:site" content="@kuliittecno">
 
     <!-- Meta Tag Robots -->
@@ -33,16 +33,16 @@
     <link rel="canonical" href="{{ url()->current() }}">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('img/client/logo_2.png') }}">
+    <link rel="shortcut icon" href="{{ secure_asset('img/client/logo_2.png') }}">
 
     <!-- External Styles & Scripts -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="{{ asset('client/dist/assets/css/style.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('client/dist/assets/libs/@iconscout/unicons/css/line.css') }}" rel="stylesheet"type="text/css">
-    <link href="{{ asset('client/dist/assets/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ secure_asset('client/dist/assets/css/style.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ secure_asset('client/dist/assets/libs/@iconscout/unicons/css/line.css') }}" rel="stylesheet"type="text/css">
+    <link href="{{ secure_asset('client/dist/assets/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css">
 </head>
 
 
@@ -82,16 +82,16 @@
     <!-- Watch Video Modal End -->
 
     <!-- Plugin Js -->
-    <script src="{{ asset('client/dist/assets/libs/preline/preline.js') }}"></script>
+    <script src="{{ secure_asset('client/dist/assets/libs/preline/preline.js') }}"></script>
     <!-- Gumshoejs -->
-    <script src="{{ asset('client/dist/assets/libs/gumshoejs/gumshoe.polyfills.min.js') }}"></script>
+    <script src="{{ secure_asset('client/dist/assets/libs/gumshoejs/gumshoe.polyfills.min.js') }}"></script>
     <!-- Swiper Js -->
-    <script src="{{ asset('client/dist/assets/libs/swiper/swiper-bundle.min.js') }}"></script>
-    <script src="{{ asset('client/dist/assets/js/swiper.js') }}"></script>
+    <script src="{{ secure_asset('client/dist/assets/libs/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="{{ secure_asset('client/dist/assets/js/swiper.js') }}"></script>
     <!-- Lucid Icons -->
-    <script src="{{ asset('client/dist/assets/libs/lucide/umd/lucide.min.js') }}"></script>
+    <script src="{{ secure_asset('client/dist/assets/libs/lucide/umd/lucide.min.js') }}"></script>
     <!-- Theme Js -->
-    <script src="{{ asset('client/dist/assets/js/theme.js') }}"></script>
+    <script src="{{ secure_asset('client/dist/assets/js/theme.js') }}"></script>
 
     <script type="text/javascript">
         window.$crisp = [];
