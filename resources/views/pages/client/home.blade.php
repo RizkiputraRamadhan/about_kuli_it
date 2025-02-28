@@ -313,7 +313,7 @@
                     </div>
                 </div>
 
-                <div class="grid md:grid-cols-2 grid-cols-1 gap-6 mt-14 items-center">
+                <div class="grid md:grid-cols-2 grid-cols-1 gap-6 mt-14 mb-4 items-center">
                     <div>
                         <img src="{{ asset('img/client/okinara.png') }}" class="max-w-full max-h-full rounded-md"
                             alt="Saas Image">
@@ -352,6 +352,7 @@
                                 </div>
                             </div>
 
+                            
                             <!-- Feature Item 2 -->
                             <div class="flex items-center gap-5">
                                 <div>
@@ -376,7 +377,9 @@
                     </div>
                 </div>
 
-                <div class="grid md:grid-cols-2 grid-cols-1 gap-6 mt-14 items-center">
+                <hr class="border-t-2 border-dashed border-gray-300 opacity-50 my-4">
+
+                <div class="grid md:grid-cols-2 grid-cols-1 gap-6 mt-14 mb-4 items-center">
                     <div class="my-auto md:mx-auto">
                         <h2 class="lg:text-3xl text-2xl text-gray-800 font-semibold mb-2">Management Data Hotel</h2>
                         <p class="text-base text-gray-600">System yang dibuat untuk mengelola data pengunjung untuk
@@ -440,7 +443,9 @@
                     </div>
                 </div>
 
-                <div class="grid md:grid-cols-2 grid-cols-1 gap-6 mt-14 items-center">
+                <hr class="border-t-2 border-dashed border-gray-300 opacity-50 my-4">
+
+                <div class="grid md:grid-cols-2 grid-cols-1 gap-6 mt-14 mb-4 items-center">
                     <div>
                         <img src="{{ asset('img/client/gedung.png') }}" class="max-w-full max-h-full rounded-md"
                             alt="Saas Image">
@@ -503,6 +508,8 @@
                         </div>
                     </div>
                 </div>
+                
+                <hr class="border-t-2 border-dashed border-gray-300 opacity-50 my-4">
 
                 <div class="grid md:grid-cols-2 grid-cols-1 gap-6 mt-14 items-center">
                     <div class="my-auto md:mx-auto">
